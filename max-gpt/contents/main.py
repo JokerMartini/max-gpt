@@ -334,7 +334,7 @@ def main():
 if __name__ == '__main__':
     main()
 
-    # key = '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'
+    # key = '###'
     # ai = MaxOpenAi(api_key=key)
     # ai.fetch_command('create a grid of teapots')
     # ai.fetch_command('assign a random wirecolor to each teapot', language='python')
