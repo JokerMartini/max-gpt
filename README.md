@@ -6,6 +6,13 @@ This is simply a proof-of-concept for integrating ChatGPT AI into 3ds Max.
 This is a proof-of-concept integration of ChatGPT into Unity Editor. 
 
 # How do I install it?
+You have two options as listed below...
+
+1. Download the git repo and place the `max-gpt` folder it into your 3ds Max Applications Plugins directory
+ex. `C:\ProgramData\Autodesk\ApplicationPlugins\max-gbt` Then restart 3ds Max. You'll find the maxscript `MaxGPT` under the JokerMartini category.
+
+2. Download the git repo and append the directory path pointing to the location of the max-gpt folder to the environment variable `ADSK_APPLICATION_PLUGINS`.
+ex. `C:\Users\jmartini\Documents\github\downloads` (max-gpt located inside folder). Then restart 3ds Max. You'll find the maxscript `MaxGPT` under the JokerMartini category.
 
 
 # How to try it
