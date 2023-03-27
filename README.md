@@ -1,6 +1,9 @@
 # max-gpt
 OpenAI's ChatGPT integration with 3ds Max
 
+# video demo
+https://www.youtube.com/watch?v=xLGHtPo7B68
+
 # Overview
 This is simply a proof-of-concept for integrating ChatGPT AI into 3ds Max.
 This is a proof-of-concept integration of ChatGPT into 3ds Max. 
