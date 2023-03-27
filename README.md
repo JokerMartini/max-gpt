@@ -3,7 +3,7 @@ OpenAI's ChatGPT integration with 3ds Max
 
 # Overview
 This is simply a proof-of-concept for integrating ChatGPT AI into 3ds Max.
-This is a proof-of-concept integration of ChatGPT into Unity Editor. 
+This is a proof-of-concept integration of ChatGPT into 3ds Max. 
 
 # How do I install it?
 You have two options as listed below...
