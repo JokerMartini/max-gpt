@@ -17,6 +17,7 @@ ex. `C:\ProgramData\Autodesk\ApplicationPlugins\max-gbt` Then restart 3ds Max. Y
 2. Download the git repo and append the directory path pointing to the location of the max-gpt folder to the environment variable `ADSK_APPLICATION_PLUGINS`.
 ex. `C:\Users\jmartini\Documents\github\downloads` (max-gpt located inside folder). Then restart 3ds Max. You'll find the maxscript `MaxGPT` under the JokerMartini category.
 
+3. You have to generate an API key to use the ChatGPT API. Please generate it on your account page and then copy/paste the api key into this tools Settings dialog. You account page where you can find and generate your api keys is here https://platform.openai.com/account/api-keys
 
 # How to try it
 You have to generate an API key to use the ChatGPT API. Please generate it on your account page and then copy/paste the api key into this tools Settings dialog.
