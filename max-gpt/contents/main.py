@@ -2,6 +2,7 @@ import os
 import sys
 
 # sys.path.append('C:/Python37/Lib/site-packages')
+sys.path.append(os.path.join(os.path.dirname(__file__), 'site-packages'))
 
 import openai
 
@@ -65,7 +66,6 @@ class MaxOpenAi(QtCore.QObject):
         '''
         self._history.append(item)
         self.history_changed.emit()
-
 
 
     def clear_history(self):
@@ -156,11 +156,15 @@ class SettingsDialog(QtWidgets.QDialog):
         self.uiKey.setPlaceholderText('ChatGPT API generated key')
         self.uiKey.setText(self.settings.value('key', ''))
 
+        self.uiHyperLink = QtWidgets.QLabel('<a href="https://platform.openai.com/account/api-keys">https://platform.openai.com/account/api-keys</a>')
+        self.uiHyperLink.setOpenExternalLinks(True)
+
         self.uiAccept = QtWidgets.QPushButton("OK")
         self.uiCancel = QtWidgets.QPushButton("Cancel")
 
         self.formLayout = QtWidgets.QFormLayout()
         self.formLayout.addRow('API Key', self.uiKey)
+        self.formLayout.addRow(None, self.uiHyperLink)
 
         self.buttonLayout = QtWidgets.QHBoxLayout()
         self.buttonLayout.addStretch()
